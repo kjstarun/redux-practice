@@ -1,0 +1,13 @@
+.item-title {
+  width: 200px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: black;
+}
+
+.item-image{
+    width: 250px;
+    height: 150px;
+    object-fit: contain;
+}
