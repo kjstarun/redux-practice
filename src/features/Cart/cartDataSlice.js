@@ -12,6 +12,7 @@ export const cartData = createSlice({
   reducers: {
     addItemToCart: () => {},
     addItemToCartSuccess: (state, action) => {
+      console.log("added to cart");
       if (action.payload.index === undefined) {
         state.cartItems.push(action.payload);
       } else {
